@@ -115,6 +115,12 @@ body {
     left: 400px;
 }
 
+#lake_village {
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+
 #spawn {
     position: absolute;
     top: 300px;
@@ -177,6 +183,13 @@ body {
     width: 140px;
     top: 365px;
     left: 300px;
+}
+
+#rybackoe-lake_village {
+    position: absolute;
+    width: 100px;
+    top: 650px;
+    left: 370px;
 }
 
 h1 {
@@ -245,5 +258,11 @@ p {
 #rybackoe_text {
     position: absolute;
     top: 595px;
+    left: 450px;
+}
+
+#lake_village_text {
+    position: absolute;
+    top: 695px;
     left: 450px;
 }
