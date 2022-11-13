@@ -1,0 +1,191 @@
+body {
+    background-color: #000000;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 5px solid;
+    border-radius: 40%;
+    color: #FFFFFF;
+}
+
+.quartercircle {
+    width: 15px;
+    height: 15px;
+}
+
+.line {
+    top:100px;
+    border:1px solid;
+    width:100px;
+    height:0px;
+}
+
+.vertical {
+    transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+}
+
+.diagonal-todown {
+    width:140px;
+    transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #00FF00;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+#technolozhka {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+#chernyshevskaya {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+#golden_mountains {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+#begovaya {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#primorskaya {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+#skelet_xp {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+#rybackoe {
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+
+#spawn {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+#spawn-lu {
+    position: absolute;
+    top: 305px;
+    left: 405px;
+    border-radius: 50% 0% 0% 0%;
+}
+
+#spawn-ld {
+    position: absolute;
+    top: 320px;
+    left: 405px;
+    border-radius: 0% 0% 0% 50%;
+}
+
+#spawn-ru {
+    position: absolute;
+    top: 305px;
+    left: 420px;
+    border-radius: 0% 50% 0% 0%;
+}
+
+#spawn-rd {
+    position: absolute;
+    top: 320px;
+    left: 420px;
+    border-radius: 0% 0% 50% 0%;
+}
+
+
+#dark-village {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+#dark-village-lu {
+    position: absolute;
+    top: 405px;
+    left: 405px;
+    border-radius: 50% 0% 0% 0%;
+}
+
+#dark-village-ld {
+    position: absolute;
+    top: 420px;
+    left: 405px;
+    border-radius: 0% 0% 0% 50%;
+}
+
+#dark-village-ru {
+    position: absolute;
+    top: 405px;
+    left: 420px;
+    border-radius: 0% 50% 0% 0%;
+}
+
+#dark-village-rd {
+    position: absolute;
+    top: 420px;
+    left: 420px;
+    border-radius: 0% 0% 50% 0%;
+}
+
+
+#technolozhka {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+#technolozhka-lu {
+    position: absolute;
+    top: 305px;
+    left: 305px;
+    border-radius: 50% 0% 0% 0%;
+}
+
+#technolozhka-ld {
+    position: absolute;
+    top: 320px;
+    left: 305px;
+    border-radius: 0% 0% 0% 50%;
+}
+
+#technolozhka-ru {
+    position: absolute;
+    top: 305px;
+    left: 320px;
+    border-radius: 0% 50% 0% 0%;
+}
+
+#technolozhka-rd {
+    position: absolute;
+    top: 320px;
+    left: 320px;
+    border-radius: 0% 0% 50% 0%;
+}
+
