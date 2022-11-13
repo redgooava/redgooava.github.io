@@ -10,37 +10,67 @@ body {
     color: #FFFFFF;
 }
 
-.quartercircle {
-    width: 15px;
-    height: 15px;
+.transfer {
+    width: 0; 
+    height: 0;
+    background: lightblue;
+    border-style: solid;
+    border-width: 15px;
 }
 
 .line {
-    top:100px;
-    border:1px solid;
-    width:100px;
-    height:0px;
+    width: 100px;
+    height: 10px;
 }
 
 .vertical {
-    transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+    transform: rotate(-90deg);
 }
 
 .diagonal-todown {
-    width:140px;
-    transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    transform: rotate(45deg);
 }
 
 .red {
-    background-color: #FF0000;
+    background-color: red;
 }
 
 .green {
-    background-color: #00FF00;
+    background-color: green;
 }
 
 .blue {
-    background-color: #0000FF;
+    background-color: blue;
+}
+
+.top_red {
+    border-top-color: red;
+    border-right-color: red;
+}
+
+.bottom_red {
+    border-bottom-color: red;
+    border-left-color: red;
+}
+
+.top_green {
+    border-top-color: green;
+    border-right-color: green;
+}
+
+.bottom_green {
+    border-bottom-color: green;
+    border-left-color: green;
+}
+
+.top_blue {
+    border-top-color: blue;
+    border-right-color: blue;
+}
+
+.bottom_blue {
+    border-bottom-color: blue;
+    border-left-color: blue;
 }
 
 #technolozhka {
@@ -91,101 +121,129 @@ body {
     left: 400px;
 }
 
-#spawn-lu {
+#spawn_center {
     position: absolute;
     top: 305px;
     left: 405px;
-    border-radius: 50% 0% 0% 0%;
 }
 
-#spawn-ld {
-    position: absolute;
-    top: 320px;
-    left: 405px;
-    border-radius: 0% 0% 0% 50%;
-}
-
-#spawn-ru {
-    position: absolute;
-    top: 305px;
-    left: 420px;
-    border-radius: 0% 50% 0% 0%;
-}
-
-#spawn-rd {
-    position: absolute;
-    top: 320px;
-    left: 420px;
-    border-radius: 0% 0% 50% 0%;
-}
-
-
-#dark-village {
+#dark_village {
     position: absolute;
     top: 400px;
     left: 400px;
 }
 
-#dark-village-lu {
+#dark_village_center {
     position: absolute;
     top: 405px;
     left: 405px;
-    border-radius: 50% 0% 0% 0%;
 }
 
-#dark-village-ld {
+#technolozhka_center {
     position: absolute;
-    top: 420px;
-    left: 405px;
-    border-radius: 0% 0% 0% 50%;
+    top: 305px;
+    left: 305px;
 }
 
-#dark-village-ru {
+#technolozhka-golden_mountains {
     position: absolute;
-    top: 405px;
-    left: 420px;
-    border-radius: 0% 50% 0% 0%;
+    width: 300px;
+    top: 315px;
+    left: 315px;
 }
 
-#dark-village-rd {
+#begovaya-primorskaya {
     position: absolute;
-    top: 420px;
-    left: 420px;
-    border-radius: 0% 0% 50% 0%;
+    top: 215px;
+    left: 215px;
 }
 
-
-#technolozhka {
+#primorskaya-spawn {
     position: absolute;
-    top: 300px;
+    width: 140px;
+    top: 260px;
+    left: 295px;
+}
+
+#spawn-rybackoe {
+    position: absolute;
+    width: 300px;
+    top: 450px;
+    left: 270px;
+}
+
+#technolozhka-dark_village {
+    position: absolute;
+    width: 140px;
+    top: 365px;
     left: 300px;
 }
 
-#technolozhka-lu {
+h1 {
     position: absolute;
-    top: 305px;
-    left: 305px;
-    border-radius: 50% 0% 0% 0%;
+    top: 0px;
+    left: 200px;
+    font-family: "Helvetica";
+    font-size: 40px;
+    color: #FFFFFF;
 }
 
-#technolozhka-ld {
-    position: absolute;
-    top: 320px;
-    left: 305px;
-    border-radius: 0% 0% 0% 50%;
+p {
+    font-family: "Helvetica";
+    font-size: medium;
+    color: #FFFFFF;
 }
 
-#technolozhka-ru {
+#technolozhka_text {
     position: absolute;
-    top: 305px;
-    left: 320px;
-    border-radius: 0% 50% 0% 0%;
+    top: 250px;
+    left: 270px;
 }
 
-#technolozhka-rd {
+#chernyshevskaya_text {
     position: absolute;
-    top: 320px;
-    left: 320px;
-    border-radius: 0% 0% 50% 0%;
+    top: 250px;
+    left: 460px;
 }
 
+#golden_mountains_text {
+    position: absolute;
+    top: 250px;
+    left: 580px;
+}
+
+#begovaya_text {
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+#primorskaya_text {
+    position: absolute;
+    top: 150px;
+    left: 275px;
+}
+
+#spawn_text {
+    position: absolute;
+    top: 250px;
+    left: 395px;
+}
+
+#dark_village_text {
+    position: absolute;
+    top: 395px;
+    left: 450px;
+}
+
+#skelet_xp_text {
+    position: absolute;
+    top: 495px;
+    left: 450px;
+}
+
+#rybackoe_text {
+    position: absolute;
+    top: 595px;
+    left: 450px;
+}
